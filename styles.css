@@ -1,0 +1,54 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #inicio {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  #inicio h1 {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+  }
+  #inicioCarousel {
+    max-height: 500px; /* Altura máxima de la portada */
+  }
+  #inicioCarousel .carousel-item img {
+    object-fit: cover;
+    height: 500px; /* Ajusta las imágenes al mismo tamaño */
+  }
+  #inicioCarousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente en el texto */
+    padding: 1rem;
+  }
+  #galeria .thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #galeria .thumbnail {
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  #galeria .thumbnail:hover {
+    border-color: #007bff;
+  }
+  #galeriaCarousel .carousel-item img {
+    object-fit: cover;
+    height: 500px; /* Altura de la imagen principal */
+    width: 100%;
+  }
